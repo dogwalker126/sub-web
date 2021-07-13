@@ -265,20 +265,7 @@ export default {
 
         ],
         remoteConfig: [
-          {
-            label: "默认",
-            options: [
-              {
-                label: "不选，由接口提供方提供",
-                value: ""
-              }
-            ]
-          },
-          {
-            label: "ACL4SSR",
-            options: [
-              
-              {
+             {
                 label: "ACL4SSR 本地 默认版 分组比较全",
                 value: "config/ACL4SSR.ini"
               },
@@ -318,66 +305,7 @@ export default {
                 label: "ACL4SSR_WithGFW 本地 GFW列表",
                 value: "config/ACL4SSR_WithGFW.ini"
               }
-            ]
-          },
-          {
-            label: "universal",
-            options: [
-              {
-                label: "No-Urltest",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
-              },
-              {
-                label: "Urltest",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/urltest.ini"
-              }
-            ]
-          },
-          {
-            label: "customized",
-            options: [
-              {
-                label: "Maying",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/maying.ini"
-              },
-              {
-                label: "Ytoo",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/ytoo.ini"
-              },
-              {
-                label: "FlowerCloud",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/flowercloud.ini"
-              },
-              {
-                label: "NyanCAT",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/nyancat.ini"
-              },
-              {
-                label: "Nexitally",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/nexitally.ini"
-              },
-              {
-                label: "SoCloud",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/socloud.ini"
-              },
-              {
-                label: "ARK",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/ark.ini"
-              },
-              {
-                label: "ssrCloud",
-                value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/ssrcloud.ini"
-              }
+           
             ]
           },
           {
