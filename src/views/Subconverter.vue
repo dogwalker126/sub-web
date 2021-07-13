@@ -261,13 +261,14 @@ export default {
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
-          { value: "https://sub-beta.now.sh/sub?" },
+          { value: "https://shadowingy-sub.vercel.app/sub?" },
         
         ],
         remoteConfig: [
           {
             label: "默认",
-            options: [
+            value: "config/ACL4SSR.ini"
+	    [
               {
                 label: "不选，由接口提供方提供",
                 value: ""
