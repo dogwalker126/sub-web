@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            网址-shadowingypro.xyz-Shadowingy官网-订阅转换
+            网址-shadowingypro.xyz-Shadowingy官网-订阅转换--点击右边图标联系客服
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
             <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
