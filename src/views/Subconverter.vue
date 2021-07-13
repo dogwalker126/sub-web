@@ -267,8 +267,7 @@ export default {
         remoteConfig: [
           {
             label: "默认",
-            value: "config/ACL4SSR.ini"
-	    [
+            value: "config/ACL4SSR.ini"[
               {
                 label: "不选，由接口提供方提供",
                 value: ""
@@ -458,7 +457,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "在线订阅转换";
+    document.title = "Shadowingy官网-在线订阅转换";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
@@ -469,7 +468,7 @@ export default {
   mounted() {
     this.form.clientType = "clash";
     this.form.customBackend = defaultBackend;
-    this.form.remoteConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
+    this.form.remoteConfig = "config/ACL4SSR_Mini.ini";
     this.getBackendVersion();
   },
   methods: {
